@@ -35,13 +35,16 @@ This website template is perfect for Airsoft Teams or Airsoft Game Service.
 
 # Website content (not responsive)
 
-## # Default view with logo and background image
+### # Default view with logo and background image
+
 ![alt text](https://i.imgur.com/DuDjnr6.png)
 
-## # Game types
+### # Game types
+
 ![alt text](https://i.imgur.com/ZFZ2E5M.png)
 
-## # Gallery for show awesome game footages
+### # Gallery for show awesome game footages
+
 ![alt text](https://i.imgur.com/2kHh7OA.png)
 
 ![alt text](https://i.imgur.com/EMGiw8I.png)
