@@ -5,3 +5,5 @@ This website template is perfect for Airsoft teams or Airsoft Game Service.
 - **Free to use!**
 - **Free to edit!**
 - **Responsive website**
+
+![alt text](https://i.imgur.com/kxyP5Tb.png)
