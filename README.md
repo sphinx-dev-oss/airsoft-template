@@ -54,3 +54,4 @@ This website template is perfect for Airsoft Teams or Airsoft Game Service.
 ![alt text](https://i.imgur.com/EMGiw8I.png)
 
 # Create by: sphinx-dev-oss AKA Izumi
+# https://sphinx-dev-oss.github.io/
