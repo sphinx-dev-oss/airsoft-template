@@ -1,5 +1,9 @@
 # airsoft-template | PRE-RELEASE
 
+# Releases
+> https://github.com/sphinx-dev-oss/airsoft-template/releases
+
+# 
 This website template is perfect for Airsoft Teams or Airsoft Game Service.
 
 - **Free to use!**
