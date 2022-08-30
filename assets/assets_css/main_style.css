@@ -1,0 +1,251 @@
+:root{
+    --button-hover-color: #566127;
+    --button-hover-color-2: #decba5;
+    --white: #fff;
+    --black: #000;
+    --navbar-color: #4b5709;
+    --navbar-color-2: #8a7967;
+
+    --font-light: font-weight: 300;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+html{
+    width: 100%;
+    height: 100vh;
+}
+
+body{
+    background-color: var(--white);
+}
+
+label.logo{
+    color: white;
+    line-height: 80px;
+    padding: 0 100px;
+}
+
+label.logo img{
+    position: relative;
+    left: -1rem;
+    top: 1rem;
+}
+
+nav{
+  background: var(--navbar-color-2);
+  height: 80px;
+  width: 100%;
+}
+
+nav ul{
+  float: right;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+}
+
+nav ul li a{
+  color: var(--white);
+  font-size: 17px;
+  padding: 30px 13px;
+  z-index: -1;
+  transition: .3s ease;
+}
+
+a.active,a:hover{
+  color: var(--button-hover-color-2);
+}
+
+.checkbtn{
+  font-size: 30px;
+  color: var(--white);
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  display: none;
+}
+
+#check{
+  display: none;
+}
+
+.page-image{
+    position: relative;
+    top: 5rem;
+    width: 100%;
+    height: 60vh;
+    background-image: url('../assets_images/airsoft_bg-3.png');
+    background-repeat: no-repeat;
+    background-position: 0 -7rem;
+}
+
+.image-ghost{
+    background: var(--white);
+    opacity: 53%;
+    height: 100%;
+}
+
+.page-image .img-logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#games{
+  position: absolute;
+  top: 100%;
+  border-top: 3px solid var(--navbar-color-2);
+  border-bottom: 3px solid var(--navbar-color-2);
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+
+.games-content{
+  position: absolute;
+  top: 5rem;
+}
+
+.grid-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.grid-item{
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  width: 20%;
+  min-height: 450px;
+  border-radius: 10px;
+  margin-top: 2rem;
+  margin-right: 5rem;
+  border: 3px solid var(--navbar-color-2);
+}
+.grid-container img{
+  margin-top: 15px;
+  margin: 15px 0 15px 0;
+  width: 100%;
+}
+
+.grid-item h1{
+  font-size: 20px;
+  text-align: center;
+}
+
+.grid-item h2{
+  margin-top: 15px;
+  text-align: center;
+  font-size: 25px;
+}
+
+
+#gallery{
+  position: absolute;
+  top: 200vh;
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+}
+
+#gallery-h2{
+  border-top: 3px solid var(--navbar-color-2);
+  border-bottom: 3px solid var(--navbar-color-2);
+  padding: 15px 0;
+}
+
+.gallery-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.gallery-container img{
+  margin-top: 15px;
+  width: 100%;
+}
+
+.gallery-item{
+  border: 2.5px solid var(--navbar-color);
+  background-color: var(--white);
+  box-shadow: 10px 15px 55px 0px rgb(0, 0, 0, 60%);
+  padding: 0 15px 0 15px;
+  text-align: center;
+  width: 25%;
+  min-height: 150px;
+  margin-top: 3rem;
+  margin-right: 5rem;
+}
+
+.gallery-item img{
+  border: 3px solid var(--navbar-color);
+}
+
+.gallery-item h1{
+  font-size: 20px;
+  text-align: left;
+  color: var(--black);
+  font-weight: var(--font-light);
+  border-bottom: 3px solid var(--navbar-color-2);
+  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+}
+
+.date-data{
+  font-size: 20px;
+  text-align: right;
+  font-weight: var(--font-light);
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+@media(max-width: 858px){
+    .checkbtn{
+      display: block;
+    }
+    nav{
+      z-index: 3;
+      position: fixed;
+    }
+    ul{
+      position: absolute;
+      width: 100%;
+      height: 100vh;
+      background: #2f3640;
+      top: 80px;
+      left: -100%;
+      transition: all .6s;
+      text-align: center;
+      z-index: 2;
+    }
+    nav ul li{
+      display: block;
+    }
+    nav ul li a{
+      font-size: 20px;
+    }
+    a:hover,a.active{
+      background: #2f3640;
+      color: white;
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+}
