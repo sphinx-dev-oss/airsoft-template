@@ -13,7 +13,11 @@ This website template is perfect for Airsoft Teams or Airsoft Game Service.
 - **Responsive Navbar**
 - **Favicon (Browser Tab Icon)**
 - **Gallery for awesome captured footages or images, like a album (not available at the moment)**
+  > You can set title
+  > 
   > You can set upload date
+  > 
+  > You can set thumbnail
 - **Game Type mini 'cards', you can attach image and description.**
 
 # Navbar Translations
