@@ -1,4 +1,4 @@
-# airsoft-template | PRE-RELEASE
+# airsoft-template | PRE-RELEASE | v0.1.0-alpha
 
 # Releases
 > https://github.com/sphinx-dev-oss/airsoft-template/releases
