@@ -1,5 +1,10 @@
 # airsoft-template | PRE-RELEASE | v0.1.0-alpha
 
+# Latest release
+```diff
++ v0.1.0-alpha
+```
+
 # Releases
 > https://sphinx-dev-oss.github.io/all-releases/public-templates/airsoft-template/v0.1.0-alpha/
 
